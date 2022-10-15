@@ -1,34 +1,26 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+For this project, the goal was to learn how to use React and get a bit of a feel for what it can do. The project was a simple Todo list with a few different functions inside. You have a basic input bar that can allow the user to add new tasks to their list. Each item has a checkbox next to them so the user can change them off. You have a clear all completed button, which removes any task that has been checked off. There is also a clear-all button that will simply wipe the whole list. The list does actually save, so if you refresh it, the list is still there. I added some CSS to help make the website look a bit more pleasant than just a white screen with some text on it. 
 
-{Provide a description the web app that you wrote. Describe how to start a test server on your computer and what website to open up to see the first page of the app.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/yxobLJy5X0Y)
 
 # Web Pages
 
-{Describe each of the web pages you created and how the web app transitions between each of them.  Also describe what is dynamically created on each page.}
+The web app only has a single page but changes around when the user adds or removes elements from the list. The page can continue to grow as the user inputs more tasks. 
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+The IDE I used for this project was visual studio code. It helps streamline the process a bit with helpful add-ons as well as the GitHub functionally allowing for uploading to git to be very simple and quick.
 
-{Describe the programming language that you used and any libraries.}
+The largest part of the project was written in Javascript with the React Library. Since it was also a website, a little bit of HTML and CSS were included. 
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [React](https://reactjs.org/)
+* [W3Schools](https://www.w3schools.com/whatis/whatis_react.asp)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Cloud storage so it does not have to be saved on the user’s computer
+* Improve the looks
+* Allow users to input images with a task
